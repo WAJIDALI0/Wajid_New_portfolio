@@ -81,4 +81,4 @@ If you'd like to reach out regarding a project, employment opportunities, or jus
 
 ---
 
-*Designed and Developed by Wajid Ali. 2025*
+*Designed and Developed by Wajid Ali. 2026*
