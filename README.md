@@ -1,16 +1,16 @@
-# My Portfolio Wesbite - Overview 🚀
+# Wajid Ali Portfolio
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+Welcome to my professional developer portfolio!
 
-## Instructions 🛠️
+## Overview
+This is a modern, responsive, and highly interactive portfolio built to showcase my experience as a MERN Stack and React Native Developer.
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+## Tech Stack
+- Frontend: React JS, TypeScript, HTML, CSS
+- 3D & Animations: GSAP, ThreeJS, React Three Fiber, WebGL
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
-
-![Portfolio-Preview](public/images/preview.png)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+## Development
+To run this project locally, execute:
+```bash
+npm run dev
+```
