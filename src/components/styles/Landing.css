@@ -215,7 +215,7 @@
 
 .landing-info h2 {
   margin: 0;
-  margin-top: -20px;
+  margin-top: -10px; /* Reduced negative margin to create more space */
   margin-left: 20px;
   font-family: "Geist", sans-serif;
   font-weight: 600;
@@ -227,6 +227,8 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+
 
 .landing-h2-info-1 {
   position: absolute;
@@ -314,7 +316,7 @@ h2.landing-info-h2 {
 
   .landing-info h2 {
     font-size: 45px;
-    line-height: 42px;
+    line-height: 55px; /* Fixed line-height to avoid clipping */
   }
 
   h2.landing-info-h2 {
@@ -388,10 +390,11 @@ h2.landing-info-h2 {
 
   .landing-info h2 {
     font-size: 65px;
-    line-height: 62px;
+    line-height: 80px; /* Fixed line-height to avoid clipping */
   }
 
   h2.landing-info-h2 {
     font-size: 75px;
+    line-height: 90px; /* Specific line-height for the larger header */
   }
 }

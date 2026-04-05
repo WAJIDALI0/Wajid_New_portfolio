@@ -87,12 +87,11 @@ function LoopText(Text1: SplitText, Text2: SplitText) {
 
   tl.fromTo(
     Text2.chars,
-    { opacity: 0, y: 80 },
+    { opacity: 0 },
     {
       opacity: 1,
       duration: 1.2,
       ease: "power3.inOut",
-      y: 0,
       stagger: 0.1,
       delay: delay,
     },
@@ -100,11 +99,11 @@ function LoopText(Text1: SplitText, Text2: SplitText) {
   )
     .fromTo(
       Text1.chars,
-      { y: 80 },
+      { opacity: 0 },
       {
+        opacity: 1,
         duration: 1.2,
         ease: "power3.inOut",
-        y: 0,
         stagger: 0.1,
         delay: delay2,
       },
@@ -112,9 +111,9 @@ function LoopText(Text1: SplitText, Text2: SplitText) {
     )
     .fromTo(
       Text1.chars,
-      { y: 0 },
+      { opacity: 1 },
       {
-        y: -80,
+        opacity: 0,
         duration: 1.2,
         ease: "power3.inOut",
         stagger: 0.1,
@@ -125,7 +124,7 @@ function LoopText(Text1: SplitText, Text2: SplitText) {
     .to(
       Text2.chars,
       {
-        y: -80,
+        opacity: 0,
         duration: 1.2,
         ease: "power3.inOut",
         stagger: 0.1,
